@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    background-color: darkslategray;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    min-height: calc(15vh - 2rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    justify-content: space-around;
+
+    &__button {
+        display: block;
+        padding: 16px 20px;
+    }
+
+    &__button:hover {
+        cursor: pointer;
+        background-color: sandybrown;
+    }
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.form-wrapper .right {
+    border: 1px solid;
+    box-shadow: 0 0 7px green;
+}
+.form-wrapper .wrong {
+    border: 1px solid;
+    box-shadow: 0 0 7px red;
+}
+input, button{
+    display: block;
+    background-color: lightblue;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    width: 500px;
+}
+
+#createPlayer {
+    background-color: rgb(25, 131, 167);
+    margin-top: 20px;
+}
+.form-wrapper input:focus {
+    outline: none;
+}
+
+form {
+    display: block;
+}
+
+#showStats {
+    display: block;
+    margin: 0 auto;
+}
+
+.rules{
+    text-align: center;
+}
+
+.rules p{
+    font-size: 30px;
+    margin-top: 20px;
+    color: lightblue;
+}
+
+table td{
+    font-size: 30px;
+    color: lightblue;
+}

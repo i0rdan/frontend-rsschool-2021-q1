@@ -1,0 +1,119 @@
+.account-wrapper {
+  padding: 9% 14% 6.5%;
+  background-color: #fafafa;
+}
+
+.account {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
+.account__item {
+  padding: 6% 3%;
+  margin-left: 2px;
+  background-color: white;
+}
+
+.account__item:nth-child(1n) {
+  align-self: center;
+}
+
+.account__item:nth-child(2) {
+  padding: 10% 4%;
+  height: 400px;
+}
+
+.account__item .item__h3 {
+  margin-top: 20px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #515769;
+}
+
+.h3__span {
+  font-size: 18px;
+  font-weight: 400;
+  color: #a6a7aa;
+}
+
+.account__item .item__paragraph {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #a6a7aa;
+}
+
+.account__item i {
+  color: #999caa;
+}
+
+.account__item .item__span {
+  display: block;
+  margin-top: 15px;
+  font-size: 16px;
+  color: #81848f;
+}
+
+.account__item .item__span::before {
+  margin-left: 4px;
+  width: 12px;
+  height: 3px;
+  color: #17bed2;
+  opacity: 1;
+  content: "—";
+}
+
+.account__item .item__button {
+  margin-top: 40px;;
+  padding: 20px 30px;
+  outline: none;
+  color: #515769;
+  background: #f3f4f5;
+  border-color: transparent;
+  border-width: 0;
+  text-transform: uppercase;
+  transition: .5s;
+}
+
+.account__item .item__button-hover:hover {
+  background-color: #17bed2;
+  color: #fff;
+  transition: .5s;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1070px) {
+  .account-wrapper {
+    padding: 9% 2% 6.5%;
+  }
+
+  .account__item {
+    padding: 6% 2%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .account-wrapper {
+    padding: 9% 2% 6.5%;
+    background-color: #fafafa;
+  }
+  
+  .account {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .account__item {
+    padding: 6% 4%;
+    margin-left: 0;
+    margin-bottom: 3px;
+  }
+  
+  .account__item:nth-child(1n) {
+    align-self: normal;
+  }
+  
+  .account__item:nth-child(2) {
+    height: auto;
+  }
+}

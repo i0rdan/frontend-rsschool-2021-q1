@@ -1,0 +1,19 @@
+@import url('styles/account.css');
+@import url('styles/benefits.css');
+@import url('styles/clients.css');
+@import url('styles/customer.css');
+@import url('styles/footer.css');
+@import url('styles/header.css');
+@import url('styles/latest-product.css');
+@import url('styles/our-clients.css');
+@import url('styles/showcase.css');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Hind', sans-serif;
+}

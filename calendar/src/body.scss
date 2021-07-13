@@ -1,0 +1,10 @@
+$height: 1%;
+$aqua: aqua;
+
+@mixin body() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: $height * 98 / 1% * 1vh;
+    background-color: $aqua;
+}

@@ -1,0 +1,31 @@
+[
+    {
+        "category_animals": "animals",
+        "images_animals": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg",
+            "5.jpg",
+            "6.jpg"
+        ],
+        "category_simpsons": "simpsons",
+        "images_simpsons": [
+            "Abraham_Simpson.jpg",
+            "Bart_Simpson.jpg",
+            "Fat_Tony.jpg",
+            "Horatio_McCallister.jpg",
+            "Clancy_Wiggum.jpg",
+            "Barney_Gumble.jpg"
+        ],
+        "category_nature": "nature",
+        "images_nature": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg",
+            "5.jpg",
+            "6.jpg"
+        ]
+    }
+]
