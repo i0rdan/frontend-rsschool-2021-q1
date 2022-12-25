@@ -1,0 +1,13 @@
+<ng-template #template>
+    <h2>Поле карт</h2>
+</ng-template>
+
+<ng-content *ngTemplateOutlet="template"></ng-content>
+<ng-content></ng-content>
+
+<div *ngFor="let item of cards" [ngClass]="{card: true}" [style.color]="flag?'black':'red'">{{item.name}}</div>
+<p #method>Play</p>
+<button (click)="change()">Change</button>
+<button (click)="alert(method)">Change Method</button>
+<p>{{ str }}</p>
+<input [(ngModel)]="str" placeholder="str">
