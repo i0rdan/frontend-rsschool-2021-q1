@@ -1,0 +1,12 @@
+<ng-template #template>
+    <h2>Поле карт</h2>
+</ng-template>
+
+<ng-content *ngTemplateOutlet="template"></ng-content>
+<div *ngFor="let item of cards">
+    <a  [ngClass]="{card: true}" [style.color]="flag?'black':'red'" routerLink="/card/{{item.id}}" (click)="details(item.id)">
+    {{item.name}}</a>
+</div>
+<p #method>Play</p>
+<button (click)="change()">Change</button>
+<button (click)="alert(method)">Change Method</button>
