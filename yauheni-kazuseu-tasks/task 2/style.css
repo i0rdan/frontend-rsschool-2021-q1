@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f3f1f1;
+}
+
+form {
+  background-color: white;
+  width: 900px;
+  height: 612px;
+  display: flex;
+  box-shadow: 0 0 25px 0px gray;
+}
+
+.form__main {
+ padding: 0 20px;
+}
+
+.form__main-wrapper {
+  width: 60%;
+  padding: 80px 60px;;
+}
+
+.form__picture img,
+form {
+  border-radius: 10px;
+}
+
+.red {
+  color: #fd5457;
+  text-decoration: none;
+}
+
+.form__main p {
+  color: #fd5457;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.main__images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0 110px;
+}
+
+.main__images a {
+  text-decoration: none;
+}
+
+.main__images i {
+  color: gray;
+  
+}
+
+.form__main > span {
+  display: block;
+  margin-top: 20px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.input-wrapper > input:not([type="button"]) {
+  background-size: 20px;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 0px 0px 0px 40px;
+  display: block;
+  margin-top: 12px;
+  width: 88%;
+  height: 40px;
+
+  border: 2px solid #dee5e5;
+  border-radius: 5px;
+  outline: none;
+  background-color: #f8f8fa;
+}
+
+.input-wrapper i {
+	position: absolute;
+	margin: 15px 0 0 14px;
+	color: gray;
+}
+
+.form_radio {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 120px;
+}
+
+.form_radio input {
+  opacity: 0;
+  position: absolute;   
+}
+
+.form_radio input, 
+label {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.form_radio label {
+  position: relative;
+}
+
+.form_radio input + label:before {
+  content: '';
+  background: #fff;
+  border: 2px solid #dee5e5;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+  padding: 2px;
+  text-align: center;
+}
+
+.form_radio input:checked + label:before {
+  background: #fd5457;
+  color: #fff;
+  border-color:#dee5e5;
+}
+
+.checkbox {
+margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+  opacity: 1;
+}
+
+input[type="checkbox"]:after {
+  content: '';
+  background: #fff;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #dee5e5;
+  border-radius: 5px;
+}
+
+input[type="checkbox"]:checked:after {
+  content: '\2714';
+  text-align: center;
+  color: white;
+  background: #fd5457;
+  border: 2px solid #fd5457;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+}
+
+.checkbox label {
+  margin-left: 20px;
+}
+
+input[value="Sign Up"] {
+  color: white;
+  width: 49%;
+  height: 40px;
+  background: #fd5457;
+  border: 2px solid #fd5457;
+  border-radius: 5px;
+}
+
+input[value="Sign In"] {
+  color: #fd5457;
+  width: 49%;
+  height: 40px;
+  background: white;
+  border: 2px solid #fd5457;
+  border-radius: 5px;
+}
